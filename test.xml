@@ -22,7 +22,7 @@
                         </AdParameters>
                         <MediaFiles>
                             <MediaFile type="application/javascript" bitrate="1500" width="600" height="400" delivery="progressive" apiFramework="VPAID">
-                                <![CDATA[${vast.vpaidURL}]]>
+                                https://dheeraj.ngrok.io/assets/vpaid.js
                             </MediaFile>
                         </MediaFiles>
                     </Linear>
