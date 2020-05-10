@@ -1,0 +1,31 @@
+<VAST version="3">
+    <Ad>
+        <InLine>
+            <AdSystem>Test</AdSystem>
+            <AdTitle>HELLO</AdTitle>
+
+            <Impression></Impression>
+
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>30</Duration>
+
+
+                        <AdParameters>
+                               <Root>
+                                   <MainURL>https://dheeraj.ngrok.io/assets/main.js</MainURL>
+                                   <vURL>https://qa.techcrumb.com/as/vai/rt</vURL>
+                               </Root>
+                        </AdParameters>
+                        <MediaFiles>
+                            <MediaFile type="application/javascript" bitrate="1500" width="600" height="400" delivery="progressive" apiFramework="VPAID">
+                                https://dheeraj.ngrok.io/assets/vpaid.js
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
